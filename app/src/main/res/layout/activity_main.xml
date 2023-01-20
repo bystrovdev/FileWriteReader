@@ -22,6 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="216dp"
+        android:onClick="saveText"
         android:text="Сохранить"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -43,10 +44,11 @@
         android:id="@+id/open_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="openText"
         android:text="Открыть"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/text"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        app:layout_constraintTop_toBottomOf="@id/text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
